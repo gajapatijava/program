@@ -4,6 +4,6 @@ class Sum
 	{
 		int a=5;
 		int b+1=a;
-		System.out.println("The sum if a and b are :"+b);
+		System.out.println("The sum if a and b aaare :"+b);
 	}
 }
