@@ -1,0 +1,10 @@
+class Demo7
+{
+	public static void main(String[] args) 
+	{
+		int a=5, b=8, c=2;
+		boolean d=a>b & a++ > c;
+		System.out.println("The value of d is :"+d);
+		System.out.println("The value of a is :"+a);
+	}
+}

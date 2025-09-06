@@ -1,0 +1,18 @@
+class Arrayprac1 
+{
+	//int []a={35,96,34,25,88,23,55,65};
+	public static void main(String[] args) 
+	{
+		int a[]={35,96,34,25,88,23,55,65};
+		//int[] a=new int[] {1,2,3,4,5};
+			
+		for (int i=0;i<a.length ;i++ )
+		{
+			System.out.println(a[i].sort);
+			
+		}	
+		System.out.println("*****");
+		System.out.println(a[0]);
+		System.out.println(a[4]);
+	}
+}

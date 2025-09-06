@@ -1,0 +1,17 @@
+class X 
+{
+	static void call(){
+				System.out.println("It is a class method");
+	}
+	void show(){
+				System.out.println("It is a object method");
+	}	
+	
+public class mydemo
+{
+	public static void main(String[] args) 
+	{
+		X.call();
+		new X().show();
+	}
+}

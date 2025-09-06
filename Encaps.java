@@ -1,0 +1,22 @@
+class A 
+{
+	static class B // Inner class 
+	{
+		void show(){
+			System.out.println("Welcome");
+		}
+	}
+}
+	class Encaps
+	{
+	
+	public static void main(String[] args) 
+		{
+	//	A a=new A();
+	//	A.B b=a.new B();
+	//	A a=new A();
+	//	a.new B().show();
+		A.B b=new A.B();
+		b.show();
+		}	
+	}

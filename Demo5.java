@@ -1,0 +1,12 @@
+class Demo5
+{
+	public static void main(String[] args) 
+	{
+		int a=10, b=3, c=0, d=0;
+		//b %= a;
+		c=a/b;
+		d=a%b;
+		System.out.println("The value of a is :"+c);
+		System.out.println("The value of b is :"+d);
+	}
+}

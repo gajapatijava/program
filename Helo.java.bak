@@ -1,0 +1,16 @@
+class Helo 
+{
+	void sayHi(){
+		System.out.println("Hi from Hello class");
+	}
+}	
+
+	Helo h = new Helo(){
+		@Override
+		void sayHi()
+		{
+			System.out.println("Hi from Anonymous Class");
+		}
+	};
+	
+	h.sayHi();

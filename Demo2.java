@@ -1,0 +1,10 @@
+class Demo3
+{
+	public static void main(String[] args) 
+	{
+		char a='A';
+		byte b=3;
+		short c= short (a+b);
+		System.out.println("The sum is :"+c);
+	}
+}

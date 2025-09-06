@@ -1,0 +1,17 @@
+public class TestClass {
+	
+public TestClass(){
+	System.out.println("This is a default constructor");
+} 
+
+public TestClass(String name){
+	System.out.println("This is a parameterized constructor. Name"+ name);
+
+}
+	public static void main(String[] args) 
+	{
+		TestClass obj1= new TestClass("Masterincoding");
+		TestClass obj2= new TestClass();
+	}
+
+}

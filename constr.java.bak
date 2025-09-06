@@ -1,0 +1,11 @@
+class constr 
+{
+	constr(){
+		System.out.println("Welcome");
+	}
+	
+	public static void main(String[] args) 
+	{
+		new constr();
+	}
+}

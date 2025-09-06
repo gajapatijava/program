@@ -1,0 +1,9 @@
+class Dem1
+{
+	public static void main(String[] args) 
+	{
+		int a=5, b=0;
+		int b += a;
+		System.out.println("The sum bbbbb is :"+b);
+	}
+}

@@ -1,0 +1,17 @@
+//@FunctionalInterface
+
+interface Test
+{
+	int add(int a, int b);
+	void show();
+}
+
+class Lam
+{
+	public static void main(String[] args) 
+	{
+		Test t=(a,b) -> a+b;
+		int x=t.add(20,30);
+		System.out.println(x);
+	}
+}

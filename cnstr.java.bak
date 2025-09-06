@@ -1,0 +1,16 @@
+class cnstr 
+{
+	cnstr(){
+		System.out.println("Welcome");
+		this(10);
+	}
+	
+	cnstr(int a){
+		System.out.println(a);
+	}
+	
+	public static void main(String[] args) 
+	{
+		new cnstr();
+	}
+}

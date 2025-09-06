@@ -1,0 +1,16 @@
+class findMax 
+{
+	int max(int a, int b)
+	{
+		if (a>b)
+			return a;
+		else 
+			return b;
+	}
+	
+	public static void main(String[] args) 
+	{
+		int x=new findMax().max(10,3);
+		System.out.println(x);
+	}
+}

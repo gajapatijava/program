@@ -1,0 +1,9 @@
+public class tets {
+	
+	public static void main(String[] args) 
+	{
+		float a=99.99f;
+		char b=(char) a;
+		System.out.println(b);
+	}
+}

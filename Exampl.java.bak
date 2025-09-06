@@ -1,0 +1,15 @@
+// Method without arguments and without return value
+class Exampl 
+{
+	String displayMessage()
+	{
+		System.out.println("Hello, this is a method with out arg and without return value !");
+		return;
+	}
+	
+	public static void main(String[] args) 
+	{
+		Exampl obj=new Exampl();
+		obj.displayMessage();
+	}
+}

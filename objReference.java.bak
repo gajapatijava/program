@@ -1,0 +1,19 @@
+class objReference
+{
+	 int add(int a, int b)
+	{
+		int c=a+b;
+		return c;
+	}
+	 
+	public static void main(String[] args) 
+	{
+		// by object
+		int x=new objReference().add(10,20);
+		System.out.println("The value of x is :"+x);
+		// by object reference:
+		objReference d=new objRerence();
+		int y=d.add(50,60);
+		System.out.println("The value of x is :"+y);
+	}
+}

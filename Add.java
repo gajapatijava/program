@@ -1,0 +1,19 @@
+// Methods without arguments and with return value
+class Add
+{
+	static int additions()
+	{
+		int a=5;
+		int b=10;
+		return a+b;
+	}
+	
+	public static void main(String[] args) 
+	{
+		//Add obj=new Add();
+		//int result=obj.additions();
+		int result =Add.additions();
+		//System.out.println(add.Additions);
+		System.out.println("Sum is:"+ result);
+	}
+}

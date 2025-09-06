@@ -1,0 +1,11 @@
+class cn 
+{	
+	cn(int a){
+		
+	}
+	
+	public static void main(String[] args) 
+	{
+		new cn(5);
+	}
+}

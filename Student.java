@@ -1,0 +1,29 @@
+class Student {
+    // Instance variables
+    String name;
+    int age;
+
+
+    // Constructor to initialize instance variables
+    Student(String a, int b) {
+      name=a;
+	  age=b;
+ 
+    }
+
+    // Method to display student details
+    void displayInfo() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+    }
+
+    // Main method
+    public static void main(String[] args) {
+        // Creating an object and initializing variables using constructor
+        Student s1 = new Student("John", 20);
+        Student s2= new Student("Ray", 30);
+        // Displaying values
+        s1.displayInfo();
+		s2.displayInfo();
+    }
+}

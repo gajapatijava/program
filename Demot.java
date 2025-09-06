@@ -1,0 +1,21 @@
+class Demot		 
+{
+	void show(){
+		System.out.println("Naresh i Technologies");
+	}
+	
+	{
+		System.out.println("Inside Block");
+		show();
+	}
+	
+	void display(){
+		show(); //
+		System.out.println("Welcome");
+			}
+	public static void main(String[] args) 
+	{
+		Demot d=new Demot();
+		d.display();
+	}
+}
